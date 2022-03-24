@@ -37,3 +37,9 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Plots
+/plots
+
+# data is immutable and should not be shared via source control
+#/data
