@@ -39,7 +39,7 @@ vignettes/*.pdf
 .Renviron
 
 # Plots
-/plots
+#/plots
 
 # data is immutable and should not be shared via source control
 #/data
