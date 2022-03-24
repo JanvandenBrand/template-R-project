@@ -5,11 +5,11 @@ requirements <- unlist(c(requirements))
 #'
 #' @param required_packages a character vector with the package names for required CRAN packages
 install_required_packages <- function(required_packages) {
-    lapply(required_packages, function(package)) {
+    lapply(required_packages, function(package) {
         if (package %in% installed.packages()[, 1] == FALSE) {
             install.packages(package)
         }
-    }
+    })
 }
-lapply(requirements, character.only=TRUE)
+lapply(requirements, library, character.only=TRUE)
 rm(list = ls())

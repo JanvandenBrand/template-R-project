@@ -1,2 +1,6 @@
 # template-R-project
-A template  R project for research
+This repos is intended as an R template for the analysis of a research project.
+
+## How to use
+
+
