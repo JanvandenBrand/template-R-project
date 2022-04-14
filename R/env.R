@@ -11,5 +11,6 @@ install_required_packages <- function(required_packages) {
         }
     })
 }
+install_required_packages(requirements)
 lapply(requirements, library, character.only=TRUE)
 rm(list = ls())
