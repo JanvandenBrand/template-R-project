@@ -31,8 +31,6 @@ See the video instructions below:
 Data are immutable. The raw data should never be changed, use scripts to clean instead. 
 Data should not live on GitHub.
 * Add /plots line 
-Plots take up a lot if space, GitHub is not ment to version control plots. 
+Plots take up a lot if space, GitHub is not meant to version control plots. 
 
-2. Add package versions to the requirements in order to install specific versions of a package.
-
-3. Consider using renv for isolation and reproducibility. It comes as an option in your Rproject settings.
+2. Consider using renv for isolation and reproducibility. It comes as an option in your Rproject settings. It can be found in the Rproject options.
