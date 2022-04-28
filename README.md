@@ -6,6 +6,13 @@ This repos is intended as an R template for the analysis of a research project.
 2. RStudio (https://www.rstudio.com/)
 3. Git (https://git-scm.com/)
 
+## How to use (fork and clone)
+1. Fork this repository to your own account. 
+2. Rename the repository to the name of your project.
+3. Open RStudio and create a New Project (Version Control)
+4. Copy and paste the repository url. It should look like https://github.com/my-github-account/my-project
+   RStudio will add a .gitignore and Rproj file for you.
+
 ## How to use (local copy)
 See the video instructions below:
 
