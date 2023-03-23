@@ -1,6 +1,8 @@
-# Environment ---------------------------------------------------------------------------------
+if ("here" %in% installed.packages()[,1] == FALSE) {
+  install.packages("here")
+}
+library(here)
 
-install.packages("here")
 # Install packages
 source("R/env.R")
 
