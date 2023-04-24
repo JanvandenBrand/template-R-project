@@ -15,7 +15,8 @@ See the video instructions below:
 
 1. Download the template as a .zip file.
 2. Extract to the desired location on your system. 
-3. Rename the root directory to your project's name.
+3. Rename the root directory to your project's name.  
+   Delete the existing template-R-project.Rproj and .gitignore files. Alternatively, move the .gitignore file to another location (e.g. desktop) and copy it back after    the repo has been initialized.
 4. Open RStudio and create a New Project (existing directory) in the root folder.
 5. Go to Global Preferences in RStudio and set-up version control to Git
 
@@ -43,3 +44,13 @@ Plots take up a lot if space, GitHub is not ment to version control plots.
 3. Run the `R/env.R` script to install the requirements
 
 4. [Optional] Consider using renv for isolation and reproducibility. It comes as an option in your Rproject settings.
+
+## Troubleshooting  
+#### 1. RStudio will not initialize the Git repo.   
+Lauch the terminal. Go to the path of your repo:  
+```
+cd Z:/path/to/your/repo
+git init
+git add *
+git commit -m "initial commit"
+```
